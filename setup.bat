@@ -8,7 +8,7 @@ docker run -dt^
 docker stop tianocore_container
 docker start tianocore_container
 
-docker exec -it tianocore_container git clone https://github.com/tianocore/edk2 ../
+docker exec -it tianocore_container git clone https://github.com/tianocore/edk2 .
 docker exec -it tianocore_container git submodule update --init
 
 docker stop tianocore_container
