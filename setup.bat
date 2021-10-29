@@ -20,6 +20,6 @@ docker exec -it tianocore_container bash edksetup.sh
 docker stop tianocore_container
 docker start tianocore_container
 
-docker exec -it tianocore_container bash edksetup.sh BaseTools
+docker exec -it tianocore_container source edksetup.sh
 
 docker stop tianocore_container
